@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 yurikorobot_IMG = "https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg"
 
 PM_START_TEXT = """
-*👋 [Hello](https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg) {} I am miss queen!*
+*👋 Hello {} I am miss queen!*
 
 ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -98,18 +98,15 @@ buttons = [
             text="Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Aꜱꜱɪꜱᴛᴀɴᴛ", callback_data="yurikorobot_asst"),
         InlineKeyboardButton(
             text="Iɴʟɪɴᴇ", switch_inline_query_current_chat=""
         ),
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
     ],
     [
-        InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
         InlineKeyboardButton(
             text="Bᴀꜱɪᴄ Hᴇʟᴘ", callback_data="yurikorobot_basichelp"
         ),
-    ],
-    [
         InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/YurikoRobot?startgroup=true"),
     ],
 ]
@@ -247,7 +244,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/MISS_QUEENS_BOT")]]
             ),
         )
         
