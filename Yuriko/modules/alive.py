@@ -23,7 +23,7 @@ file4 = "https://telegra.ph/file/956b7a50ec1f0a9802b8b.jpg"
 file5 = "https://telegra.ph/file/2fdff4fc6f3e015eb9a51.jpg"
 """ =======================YURIKO====================== """
 
-BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DeCodeSupport"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/DeeCodeBots")]]
+BUTTON = [[Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/REBEL_BOT_CHATING"), Button.url("ᴜᴘᴅᴀᴛᴇs", "https://t.me/REBELBOT_SUPPORT")]]
 
 
 START_TIME = datetime.utcnow()
@@ -57,8 +57,8 @@ async def hmm(yes):
     pm_caption = "** ♡ I,m miss queen**\n\n"
     pm_caption += f"**♡ My Uptime :** `{uptime}`\n\n"
     pm_caption += f"**♡ Telethon Version :** `{version.__version__}`\n\n"
-    pm_caption += "**♡ My Team :** [TeamDeeCode](https://t.me/TeamDeeCode)\n"
-    BUTTON = [[Button.url("Support", "https://t.me/DeCodeSupport"), Button.url("Updates", "https://t.me/DeeCodeBots")]]
+    pm_caption += "**♡ My Team :** [TeamRebel](https://t.me/REBEL_NETWORK)\n"
+    BUTTON = [[Button.url("Support", "https://t.me/REBEL_BOT_SUPPOTT"), Button.url("Updates", "https://t.me/REBELBOT_SUPPORT")]]
     on = await aasf.send_file(yes.chat_id, file=file1,caption=pm_caption, buttons=BUTTON)
     
 
