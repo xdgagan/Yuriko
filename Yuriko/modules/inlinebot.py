@@ -18,11 +18,6 @@ async def inline_query_handler(client, query):
             await client.answer_inline_query(
                 query.id, results=answerss, cache_time=10
             )
-        elif text.split()[0] == "alive":
-            answerss = await alive_function(answers)
-            await client.answer_inline_query(
-                query.id, results=answerss, cache_time=10
-            )
         elif text.split()[0] == "tr":
             if len(text.split()) < 3:
                 return await client.answer_inline_query(
