@@ -49,7 +49,7 @@ __help__ = """
 
  *File Or Text To Telegraph:*
 
-✗  /tgm - `Get Telegraph Link Of Replied Media`
+✗  /tm - `Get Telegraph Link Of Replied Media`
 
 ✗  /tgt - `Get Telegraph Link of Replied Text`
 
