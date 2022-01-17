@@ -429,10 +429,6 @@ def yurikorobot_about_callback(update, context):
                     InlineKeyboardButton(text="Nᴏᴛᴇꜱ", callback_data="yurikorobot_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", callback_data="yurikorobot_support"),
-                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="yurikorobot_credit"),
-                 ],
-                 [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_back"),
 
                  ]
