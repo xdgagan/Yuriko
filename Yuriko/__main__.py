@@ -79,10 +79,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-yurikorobot_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+yurikorobot_IMG = "https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg"
 
 PM_START_TEXT = """
-*👋 Hello {} !*
+*[👋](https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg) Hello {} I am miss queen!*
 
 ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -90,7 +90,6 @@ PM_START_TEXT = """
 × *Uᴘᴛɪᴍᴇ:* `{}`
 × `{}` *Uꜱᴇʀ, Aᴄʀᴏꜱꜱ* `{}` *Cʜᴀᴛꜱ.*
 ────────────────────────
-✗ *Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*
 """
 
 buttons = [
@@ -127,7 +126,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @PiroXPower's 💕"""
+s 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -391,10 +390,10 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/Decodesupport"
+                            text="Bᴜɢ'ꜱ", url="t.me/REBEL_BOT_CHATING"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/DeeCodeBots/32"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/REBELBOT_SUPPORT"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
@@ -421,7 +420,7 @@ def yurikorobot_about_callback(update, context):
 
             f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
-            f"\n✗ `Than send` `/admincache@YurikoRobot` `in that chat to refresh admin list in My database.`\n"
+            f"\n✗ `Than send` `/admincache@MISS_QUEENS_BOT` `in that chat to refresh admin list in My database.`\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -445,7 +444,7 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_admin":
         query.message.edit_text(
-            text="*Let's Make Your Group Bit Effective Now*\n✗ `Congragulations, YurikoRobot now ready to manage your group.`\n\n*Admin Tools*\n✗ `Basic Admin tools help you to protect and powerup your group.`\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`\n\n*Welcome*\n✗ `Lets set a welcome message to welcome new users coming to your group.`\n✗ `send` `/setwelcome [message]` `to set a welcome message!`",
+            text="*Let's Make Your Group Bit Effective Now*\n✗ `Congragulations, Miss queen now ready to manage your group.`\n\n*Admin Tools*\n✗ `Basic Admin tools help you to protect and powerup your group.`\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`\n\n*Welcome*\n✗ `Lets set a welcome message to welcome new users coming to your group.`\n✗ `send` `/setwelcome [message]` `to set a welcome message!`",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -477,7 +476,7 @@ def yurikorobot_about_callback(update, context):
 
     elif query.data == "yurikorobot_asst":
         query.message.edit_text(
-            text='*Hᴇʀᴇ Iꜱ Tʜᴇ Hᴇʟᴘ 「Aꜱꜱɪꜱᴛᴀɴᴛ」 Mᴏᴅᴜʟᴇ:*\n*SETUP ASSISTANT*\n\n✗ `1.) first, add me to your group.`\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`\n\n✗ `3.) add` @YurikoPlugin `to your group:`\n\n✗ `4.) turn on the video chat first before start to play music.`\n\n✗ *Lets Enjoy The Yuriko Music And Join Support Group @DeCodeSupport*\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*',
+            text='*Hᴇʀᴇ Iꜱ Tʜᴇ Hᴇʟᴘ 「Aꜱꜱɪꜱᴛᴀɴᴛ」 Mᴏᴅᴜʟᴇ:*\n*SETUP ASSISTANT*\n\n✗ `1.) first, add me to your group.`\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`\n\n✗ `3.) add` @MISS_QUEEN_ASSISTANT `to your group:`\n\n✗ `4.) turn on the video chat first before start to play music.`\n\n✗ *Lets Enjoy The miss queen Music And Join Support Group @DeCodeSupport*\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*',
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -493,7 +492,7 @@ def yurikorobot_about_callback(update, context):
 
     elif query.data.data == "yurikorobot_admin":
         query.message.edit_text(
-            text="*Let's Make Your Group Bit Effective Now*\n✗ `Congragulations, YurikoRobot now ready to manage your group.`\n\n*Admin Tools*\n✗ `Basic Admin tools help you to protect and powerup your group.`\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`\n\n*Welcome*\n✗ `Lets set a welcome message to welcome new users coming to your group.`\n✗ `send` `/setwelcome [message]` `to set a welcome message!`",
+            text="*Let's Make Your Group Bit Effective Now*\n✗ `Congragulations, miss queen now ready to manage your group.`\n\n*Admin Tools*\n✗ `Basic Admin tools help you to protect and powerup your group.`\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`\n\n*Welcome*\n✗ `Lets set a welcome message to welcome new users coming to your group.`\n✗ `send` `/setwelcome [message]` `to set a welcome message!`",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -530,7 +529,7 @@ def yurikorobot_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "yurikorobot_credit":
+    elif query.data == "yurikorobot_cret":
         query.message.edit_text(
             text="<b> CREDIT FOR YURIKO DEV'S</b>\n\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
             parse_mode=ParseMode.HTML,
@@ -565,7 +564,7 @@ def yurikorobot_about_callback(update, context):
 
 def Source_about_callback(update, context):
     query = update.callback_query
-    if query.data == "source_":
+    if query.data == "rce_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *yurikorobot*
                  \nHere is the [🔥Source Code🔥](https://github.com/TeamDeeCode) .""",
@@ -819,7 +818,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1947924017 and DONATION_LINK:
+        if OWNER_ID != 1858407508 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
