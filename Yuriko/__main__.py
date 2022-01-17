@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 yurikorobot_IMG = "https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg"
 
 PM_START_TEXT = """
-*[👋](https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg) Hello {} I am miss queen!*
+*👋 [Hello](https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg) {} I am miss queen!*
 
 ✗ *I'Aᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ*
 ✗ *Aᴍ Vᴇʀʏ Fᴀꜱᴛ Aɴᴅ  Mᴏʀᴇ Eꜰꜰɪᴄɪᴇɴᴛ  I Pʀᴏᴠɪᴅᴇ Aᴡᴇꜱᴏᴍᴇ  Fᴇᴀᴛᴜʀᴇꜱ!*
@@ -379,8 +379,8 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *YURIKO* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of yurikorobot.`
+            text=""" *MISS QUEEN* - `A bot to manage your groups with additional features!`
+            \n`Here the basic help regarding use of miss queen.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -476,7 +476,7 @@ def yurikorobot_about_callback(update, context):
 
     elif query.data == "yurikorobot_asst":
         query.message.edit_text(
-            text='*Hᴇʀᴇ Iꜱ Tʜᴇ Hᴇʟᴘ 「Aꜱꜱɪꜱᴛᴀɴᴛ」 Mᴏᴅᴜʟᴇ:*\n*SETUP ASSISTANT*\n\n✗ `1.) first, add me to your group.`\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`\n\n✗ `3.) add` @MISS_QUEEN_ASSISTANT `to your group:`\n\n✗ `4.) turn on the video chat first before start to play music.`\n\n✗ *Lets Enjoy The miss queen Music And Join Support Group @DeCodeSupport*\n\n*✗ Pᴏᴡᴇʀᴇᴅ 💕 Bʏ: Tᴇᴀᴍ DᴇCᴏᴅᴇ!*',
+            text='*Hᴇʀᴇ Iꜱ Tʜᴇ Hᴇʟᴘ 「Aꜱꜱɪꜱᴛᴀɴᴛ」 Mᴏᴅᴜʟᴇ:*\n*SETUP ASSISTANT*\n\n✗ `1.) first, add me to your group.`\n\n✗ `2.) then promote me as admin and give all permissions except anonymous admin.`\n\n✗ `3.) add` @MISS_QUEEN_ASSISTANT `to your group:`\n\n✗ `4.) turn on the video chat first before start to play music.`\n\n✗ *Lets Enjoy The miss queen Music And Join Support Group @REBELBOT_SUPPORT\n',
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -508,19 +508,19 @@ def yurikorobot_about_callback(update, context):
 
     elif query.data == "yurikorobot_support":
         query.message.edit_text(
-            text="* YURIKO Support Chats*"
+            text="* MISS QUEEN Support Chats*"
 
             "\n\n✗ `Join Support Group/Channel`",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/YurikoLogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/Deecodenews"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/missqueenlogs"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/REBELBOT_SUPPORT"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/Decodesupport"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/deecodebots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/REBE_BOT_CHATING"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/REBELBOT_SUPPORT"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
