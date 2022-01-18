@@ -82,7 +82,7 @@ def get_readable_time(seconds: int) -> str:
 yurikorobot_IMG = "https://telegra.ph/file/f973e4b2ebf6b67b92ce3.jpg"
 
 PM_START_TEXT = """
-𝙸 𝙰𝙼 [𝙼𝙸𝚂𝚂 𝚀𝚄𝙴𝙴𝙽](https://telegra.ph/file/f5dab1f0e490885f920dc.jpg) 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝚂𝙾𝙼𝙴 𝙰𝙽𝙸𝙼𝙴 𝙵𝚄𝙽.
+𝙸 𝙰𝙼 Asuka~× 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝚂𝙾𝙼𝙴 𝙰𝙽𝙸𝙼𝙴 𝙵𝚄𝙽.
 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙵𝙾𝚁 𝚂𝙿𝙰𝙼 𝙵𝚁𝙴𝙴 𝚁𝚄𝙽𝙽𝙸𝙽𝙶.
 =======================
 >> 𝚃𝙾 𝚂𝙴𝙴 𝙻𝙸𝚂𝚃 𝙾𝙵 𝙰𝙻𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙷𝙸𝚃 /Help.
@@ -107,7 +107,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-𝙼𝙸𝚂𝚂 𝚀𝚄𝙴𝚂𝙽💞 𝙸𝚂 𝙷𝙴𝚁𝙴
+Asuka~× 𝙸𝚂 𝙷𝙴𝚁𝙴
 𝙷𝙴𝚁𝙴 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁 𝚆𝙸𝚃𝙷 𝚃𝙷𝙴𝚂𝙴 𝙿𝙾𝚆𝙴𝚁
 𝙸 𝚆𝙸𝙻𝙻 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿
 𝙰𝙽𝙳 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙻𝙸𝙶𝙷𝚃 𝚈𝙰𝙶𝙰𝙼𝙸 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿
@@ -372,7 +372,7 @@ def yurikorobot_about_callback(update, context):
     query = update.callback_query
     if query.data == "yurikorobot_":
         query.message.edit_text(
-            text=""" *MISS QUEEN* - `A bot to manage your groups with additional features!`
+            text=""" *Asuka~×* - `A bot to manage your groups with additional features!`
             \n`Here the basic help regarding use of miss queen.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
@@ -497,7 +497,7 @@ def yurikorobot_about_callback(update, context):
 
     elif query.data == "yurikorobot_support":
         query.message.edit_text(
-            text="* MISS QUEEN Support Chats*"
+            text="* Asuka~× Support Chats*"
 
             "\n\n✗ `Join Support Group/Channel`",
             parse_mode=ParseMode.MARKDOWN,
@@ -518,7 +518,7 @@ def yurikorobot_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "yurikorobot_cret":
+    elif query.data == "yuriobot_cret":
         query.message.edit_text(
             text="<b> CREDIT FOR YURIKO DEV'S</b>\n\n`✗ Here Some Developers Helping in Making The Yuriko Bot`",
             parse_mode=ParseMode.HTML,
