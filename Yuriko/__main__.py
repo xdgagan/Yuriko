@@ -91,7 +91,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/MISS_QUEENS_BOT?startgroup=true"),
+        InlineKeyboardButton(text="Sᴜᴍᴍᴏɴ Mᴇ", url="http://t.me/ASUKAAXBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Aʙᴏᴜᴛ", callback_data="yurikorobot_"),
@@ -240,7 +240,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/REBEL_BOT_CHATING")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/LOFILIFEXD")]]
             ),
         )
         
@@ -373,7 +373,7 @@ def yurikorobot_about_callback(update, context):
     if query.data == "yurikorobot_":
         query.message.edit_text(
             text=""" *Asuka~×* - `A bot to manage your groups with additional features!`
-            \n`Here the basic help regarding use of miss queen.`
+            \n`Here the basic help regarding use of asuka~x.`
             
             \n`Almost all modules usage defined in the help menu, checkout by sending` `/help`
             \n`Report error/bugs click the Button`""",
@@ -383,10 +383,10 @@ def yurikorobot_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/REBEL_BOT_CHATING"
+                            text="Bᴜɢ'ꜱ", url="t.me/LOFILIFEXD"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/REBELBOT_SUPPORT"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/ASUKA_SUPPORT"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="yurikorobot_back")],
@@ -413,7 +413,7 @@ def yurikorobot_about_callback(update, context):
 
             f"\n\n✗ `Firstly Add` {dispatcher.bot.first_name} `to your group by pressing` [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n✗ `After adding promote me manually with full rights for faster experience.`\n"
-            f"\n✗ `Than send` `/admincache@MISS_QUEENS_BOT` `in that chat to refresh admin list in My database.`\n"
+            f"\n✗ `Than send` `/admincache@ASUKAAXBOT` `in that chat to refresh admin list in My database.`\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -433,7 +433,7 @@ def yurikorobot_about_callback(update, context):
         )
     elif query.data == "yurikorobot_admin":
         query.message.edit_text(
-            text="*Let's Make Your Group Bit Effective Now*\n✗ `Congragulations, Miss queen now ready to manage your group.`\n\n*Admin Tools*\n✗ `Basic Admin tools help you to protect and powerup your group.`\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`\n\n*Welcome*\n✗ `Lets set a welcome message to welcome new users coming to your group.`\n✗ `send` `/setwelcome [message]` `to set a welcome message!`",
+            text="*Let's Make Your Group Bit Effective Now*\n✗ `Congragulations, ASUKAA~X now ready to manage your group.`\n\n*Admin Tools*\n✗ `Basic Admin tools help you to protect and powerup your group.`\n✗ `You can ban members, Kick members, Promote someone as admin through commands of bot.`\n\n*Welcome*\n✗ `Lets set a welcome message to welcome new users coming to your group.`\n✗ `send` `/setwelcome [message]` `to set a welcome message!`",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -504,12 +504,12 @@ def yurikorobot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/missqueenlogs"),
-                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/REBELBOT_SUPPORT"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/ASUKAAXLOGS"),
+                    InlineKeyboardButton(text="Nᴇᴡꜱ", url="t.me/ASUKA_SUPPORT"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/REBE_BOT_CHATING"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/REBELBOT_SUPPORT"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/LOFILIFEXD"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/ASUKA_SUPPORT"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="yurikorobot_basichelp"),
